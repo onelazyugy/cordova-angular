@@ -1,6 +1,13 @@
 # AngularCordovaDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+- A cordova project using angular 6
+# Run the following cmd
+- $ cordova platform add ios 
+- $ cordova platform add android
+- $ cordova build ios (/Users/xxx/IdeaProjects/cordovaandangular/platforms/ios/build/emulator/cordovaangular.app)
+- $ cordova build android (/Users/xxx/IdeaProjects/cordovaandangular/platforms/android/app/build/outputs/apk/debug/app-debug.apk)
+- $ ng build (will output to www folder for cordova to render)
 
 ## Development server
 
